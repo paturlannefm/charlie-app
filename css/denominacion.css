@@ -1,0 +1,114 @@
+@font-face 
+{
+	font-family: "Roboto";
+	src: url("../css/Roboto/Roboto-Regular.ttf");
+}
+
+body
+{
+  overflow: hidden;
+  font-family: "Roboto";
+}
+
+body#ejercicios
+{
+  width:100%;
+  height: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+
+
+
+
+#tituloej
+{
+  font-size: 2vw;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-weight: bold;
+}
+
+   .contdenominacion
+   {
+     
+     margin-top: 1%; 
+     margin-bottom: 5%;   
+     width: 100%;
+     height: auto;
+   
+  }
+
+
+
+   #correcta
+ {
+  font-size: 2.5vw;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-weight: bold;
+  margin-left: 7%;
+  margin-top: -4%; 
+  color: #707070;
+
+ }
+
+
+
+
+
+
+  #reiniciar
+  {
+    margin-top: 55%;
+    color: aliceblue;
+    font-size: 1.3vw;
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  }
+
+  #terminar
+  {
+    color: aliceblue;
+    font-size: 1.3vw;
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-top: 8%;
+  }
+
+
+
+ .iconomenu
+ {
+  
+  line-height: 14px;
+  margin-left: 0.7%;
+  margin-top: 1.5%;
+ position: fixed;
+  color: #ffffff;
+ }
+
+ .barramenu
+ {
+   
+   width: 2.1vw;
+   font-size: 1.3vw;
+   height: 100% ;
+   margin-left: -3%;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   background-color: #86D6C6;
+   
+}
+
+
+#pista
+{
+  width:5.4vw;
+  height: 7vw;
+  margin-top: 0%;
+}
+
+#pista:active
+{
+  transform: translateY(4px);
+}

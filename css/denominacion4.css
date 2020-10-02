@@ -1,0 +1,75 @@
+
+#contdenom 
+{
+    box-sizing: border-box;   
+    height: auto;
+    margin-top: 15%;
+}
+
+
+.target 
+{   
+      font-size: 2.6vw;
+      color: #000000;
+      font-weight: 600;
+      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+      font-weight: bold;
+      margin-top: 15%;
+      box-sizing: border-box;
+      text-align: center;    
+}
+    
+ #im1,#im2,#im3,#im4
+{
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 40px;
+   object-fit: fixed;
+   width:15vw;
+   height: 15vw; 
+}
+
+#im1,#im2,#im3,#im4:hover 
+{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#im1:active
+{
+  transform: translateY(4px);
+}
+
+#im2:active
+{
+  transform: translateY(4px);
+}
+
+#im3:active
+{
+  transform: translateY(4px);
+}
+#im4:active
+{
+  transform: translateY(4px);
+}
+
+
+
+
+.consigna {
+	height: 3vh;
+	font-size: 2.2vw;
+	color: #050505;;
+	font-weight: 600;
+	
+	
+	/*text-shadow: 2px 2px 4px;*/
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.divconsigna
+{
+    width: 70vw;
+    border-bottom: #86D6C6 5px solid;
+    margin-left: 5%;
+}
